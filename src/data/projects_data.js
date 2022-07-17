@@ -1,4 +1,3 @@
-import Placeholder from "../assets/Placeholder.png";
 import Wolfpackapp from "../assets/Wolfpackapp.png";
 import Boink from "../assets/Boink.png";
 import Teachassistapp from "../assets/Teachassistapp.png";

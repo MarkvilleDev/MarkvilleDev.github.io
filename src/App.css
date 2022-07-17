@@ -7,6 +7,7 @@
 
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 h1 {
@@ -29,5 +30,4 @@ hr {
   width: 85%;
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
 }

@@ -1,17 +1,50 @@
-
 .hero {
   width: 100%;
   height: 100vh;
+  max-height: 100vh;
   top: 0;
   color: #333;
   background-color: #eee;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../assets/Logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #f9f9f9;
 }
-  .hero__content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*
+.binary-animation {
+  overflow: hidden;
+}
+
+.binary-animation span {
+  color: #aaa;
+  font-family: monospace;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  text-overflow: clip;
+  animation: binary-animation 10s linear 0s infinite;
+}
+
+@keyframes binary-animation {
+  from {
+    transform: translateX(-100vw);
+  }
+
+  to {
+    transform: translateX(0vw);
+  }
+}
+*/
