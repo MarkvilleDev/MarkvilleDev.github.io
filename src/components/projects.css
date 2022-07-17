@@ -18,16 +18,14 @@
   flex-wrap: wrap;
 }
 .project__info {
-  font-size: 16px;
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   max-width: 60vw;
 }
 .project__name {
-  font-size: 2em;
   font-weight: 700;
   display: inline-block;
   position: relative;
@@ -49,19 +47,19 @@
   transform-origin: bottom left;
 }
 .project__date {
-  font-size: 1em;
+  font-size: 16px;
   margin-bottom: 20px;
   font-style: italic;
   font-weight: 600;
 }
 .project__subtitle {
-  font-size: 1.2em;
+  font-size: 20px;
   font-weight: 500;
   position: relative;
   margin-bottom: 8px;
 }
 .project__description {
-  font-size: 1em;
+  font-size: 16px;
   margin-bottom: 40px;
 }
 
@@ -116,4 +114,16 @@ a {
 
 a:hover {
   color: #444;
+}
+
+@media only screen and (max-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  li {
+    margin-bottom: 10px;
+  }
 }
