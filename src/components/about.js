@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div className="about">
       <div className="about__header">
-        <h1 className="about__title">About Markville's App Development Club</h1>
+        <h2 className="about__title">About Markville's App Development Club</h2>
       </div>
       <div className="about__content">
         <p className="about__description">

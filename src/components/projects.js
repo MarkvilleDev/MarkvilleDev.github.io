@@ -7,60 +7,52 @@ export const Projects = () => {
   return (
     <div className="projects">
       <div className="projects__header">
-        <h1 className="projects__title">
-          <span className="projects__title--primary">Projects</span>
-        </h1>
-        <p className="projects__subtitle">Lorem ipsum dolor sit amet.</p>
+        <h2 className="projects__title">Projects</h2>
+        <hr />
       </div>
       <div className="projects__content">
         {projects_data
           ? projects_data.map((project) => (
               <div className="project" key={project.name}>
                 <div className="project__info">
-                  <h3 className="project__name">{project.name}</h3>
+                  <h3
+                    className="project__name"
+                    style={{ color: project.colors.primary }}
+                  >
+                    {project.name}
+                  </h3>
                   <p className="project__date">{project.date}</p>
+                  <h4 className="project__subtitle">{project.subtitle}</h4>
                   <p className="project__description">{project.description}</p>
                   <ul>
-                    {project.apple && (
-                      <li>
-                        <a
-                          href={project.apple}
-                          target="__blank"
-                          rel="noopener noreferrer"
-                          className="project__link"
-                        >
-                          App Store
-                        </a>
-                      </li>
-                    )}
-                    {project.google && (
-                      <li>
-                        <a
-                          href={project.google}
-                          target="__blank"
-                          rel="noopener noreferrer"
-                          className="project__link"
-                        >
-                          Play Store
-                        </a>
-                      </li>
-                    )}
-                    {project.github && (
-                      <li>
-                        <a
-                          href={project.github}
-                          target="__blank"
-                          rel="noopener noreferrer"
-                          className="project__link"
-                        >
-                          Github
-                        </a>
-                      </li>
+                    {["apple", "google", "github", "website"].map(
+                      (platform) =>
+                        project[platform] && (
+                          <li key={platform}>
+                            <div className="button">
+                              <a
+                                href={project[platform]}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="project__link"
+                              >
+                                {platform.charAt(0).toUpperCase() +
+                                  platform.slice(1)}
+                              </a>
+                            </div>
+                          </li>
+                        )
                     )}
                   </ul>
                 </div>
                 <div className="project__image">
-                  <img src={project.image.src} alt={project.image.alt} />
+                  <img
+                    src={project.image.src}
+                    alt={project.image.alt}
+                    style={{
+                      boxShadow: `0 0 26px ${project.colors.primary}`,
+                    }}
+                  />
                 </div>
               </div>
             ))
