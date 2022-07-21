@@ -6,11 +6,11 @@ import { Projects } from "./components/projects";
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Hero />
       <Projects />
       <About />
-    </div>
+    </main>
   );
 }
 

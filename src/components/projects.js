@@ -9,24 +9,24 @@ import useWindowSize from "../hooks/useWindowDimensions";
 AOS.init();
 
 export const Projects = () => {
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
 
   return (
-    <div className="projects">
-      <div className="projects__header">
+    <main className="projects">
+      <header className="projects__header">
         <h2 className="projects__title">Projects</h2>
         <hr />
-      </div>
-      <div className="projects__content">
+      </header>
+      <section className="projects__content">
         {projects_data
           ? projects_data.map((project, index) => (
-              <div
+              <article
                 className="project"
                 key={project.name}
                 data-aos="fade-up"
                 data-aos-duration="1200"
               >
-                <div
+                <section
                   className="project__info"
                   data-aos={width > 890 ? "fade-right" : "fade-up"}
                   data-aos-duration="1000"
@@ -64,8 +64,8 @@ export const Projects = () => {
                         )
                     )}
                   </ul>
-                </div>
-                <div
+                </section>
+                <picture
                   className="project__image"
                   data-aos={width > 890 ? "fade-left" : "fade-up"}
                   data-aos-duration="1000"
@@ -77,14 +77,14 @@ export const Projects = () => {
                       boxShadow: `0 0 26px ${project.colors.primary}`,
                     }}
                   />
-                </div>
+                </picture>
                 {width < 891 && index < projects_data.length - 1 && (
                   <hr data-aos="fade-up" data-aos-duration="1000" />
                 )}
-              </div>
+              </article>
             ))
           : null}
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };

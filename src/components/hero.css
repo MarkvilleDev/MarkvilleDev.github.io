@@ -1,11 +1,13 @@
 .hero {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  max-width: 100vw;
   max-height: 100vh;
   top: 0;
   color: #333;
   background-color: #eee;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url("../assets/Logo.png");
@@ -13,38 +15,37 @@
   background-position: center;
   background-size: contain;
   background-color: #f9f9f9;
+  box-shadow: inset 0 0 170px 25px #555;
 }
 
-.hero__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.binary__char {
+  font-family: monospace;
+  font-size: 70px;
+  letter-spacing: 0.2em;
+  line-height: 1em;
 }
-/*
+
 .binary-animation {
   overflow: hidden;
-}
-
-.binary-animation span {
-  color: #aaa;
-  font-family: monospace;
-  font-size: 40px;
   position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  text-overflow: clip;
-  animation: binary-animation 10s linear 0s infinite;
+  width: 98%;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow-wrap: break-word;
+}
+.binary-animation span {
+  position: relative;
+  animation: move-text 2.8s infinite;
 }
 
-@keyframes binary-animation {
-  from {
-    transform: translateX(-100vw);
+@keyframes move-text {
+  0% {
+    opacity: 0.05;
   }
-
-  to {
-    transform: translateX(0vw);
+  50% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 0.05;
   }
 }
-*/

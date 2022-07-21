@@ -22,7 +22,7 @@ export const projects_data = [
   },
   {
     name: "Wolfpack App",
-    subtitle: "Meet Unionville's central hub: wolfpackapp.",
+    subtitle: "Meet Unionville High School's central hub: wolfpackapp.",
     description:
       "Wolfpackapp is designed to be a one-stop-shop for all student to get their daily info at a glance. With quick access to links, built in calendars, and live announcements, wolfpackapp will help students stay up to date on all important info. Download wolfpackapp now and explore tons of exciting features!",
     date: "2021",

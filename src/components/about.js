@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import { AiFillGithub } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -8,15 +9,15 @@ AOS.init();
 
 export const About = () => {
   return (
-    <div className="about">
-      <div
+    <section className="about">
+      <header
         className="about__header"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
         <h2 className="about__title">About the Club</h2>
-      </div>
-      <div
+      </header>
+      <section
         className="about__content"
         data-aos="fade-up"
         data-aos-duration="1000"
@@ -33,20 +34,43 @@ export const About = () => {
           a development environment to registering a Google Play Console or
           Apple Developer account.
         </p>
-      </div>
-      <div
+      </section>
+      <footer
         className="about__footer"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <a
-          href="https://github.com/MarkvilleAppDev"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <AiFillGithub size={40} className="about__social" />
-        </a>
-      </div>
-    </div>
+        <div className="tooltip">
+          <span
+            className="tooltip__text"
+            style={{ width: "260px", "margin-left": "-130px" }}
+          >
+            markvilleappdevelopment@gmail.com
+          </span>
+          <a
+            href="mailto:markvilleappdevelopment@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MdEmail size={40} className="about__social" />
+          </a>
+        </div>
+        <div className="tooltip">
+          <span
+            className="tooltip__text"
+            style={{ width: "120px", "margin-left": "-60px" }}
+          >
+            MarkvilleAppDev
+          </span>
+          <a
+            href="https://github.com/MarkvilleAppDev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillGithub size={40} className="about__social" />
+          </a>
+        </div>
+      </footer>
+    </section>
   );
 };
