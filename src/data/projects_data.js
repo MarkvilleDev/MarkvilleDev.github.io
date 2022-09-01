@@ -1,6 +1,7 @@
 import Wolfpackapp from "../assets/Wolfpackapp.png";
 import Boink from "../assets/Boink.png";
 import Teachassistapp from "../assets/Teachassistapp.png";
+//import MarkhamTrails from "../assets/MarkhamTrails.png";
 
 export const projects_data = [
   {
@@ -57,3 +58,21 @@ export const projects_data = [
     },
   },
 ];
+
+/*
+{
+    name: "Markham Trails",
+    subtitle: "Lorem ipsum dolor sit amet.",
+    description: "Lorem ipsum dolor sit amet.",
+    date: "2022",
+    apple: "",
+    google: "",
+    colors: {
+      primary: "#61aa5a",
+      text: "#ffffff",
+    },
+    image: {
+      src: MarkhamTrails,
+      alt: "Markham Trails App Image",
+    },
+  },*/

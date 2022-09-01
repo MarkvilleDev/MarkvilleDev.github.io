@@ -19,7 +19,7 @@ export const Projects = () => {
       </header>
       <section className="projects__content">
         {projects_data
-          ? projects_data.map((project, index) => (
+          ? projects_data.reverse().map((project, index) => (
               <article
                 className="project"
                 key={project.name}
