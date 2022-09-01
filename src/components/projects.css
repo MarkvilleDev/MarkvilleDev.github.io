@@ -126,4 +126,7 @@ a:hover {
   li {
     margin-bottom: 10px;
   }
+  .project__image {
+    height: 200px;
+  }
 }

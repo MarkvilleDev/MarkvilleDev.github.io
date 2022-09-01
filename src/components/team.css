@@ -66,4 +66,7 @@
   .team__exec {
     width: 100vw;
   }
+  .team__image {
+    height: 400px;
+  }
 }

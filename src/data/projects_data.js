@@ -1,7 +1,7 @@
 import Wolfpackapp from "../assets/Wolfpackapp.png";
 import Boink from "../assets/Boink.png";
 import Teachassistapp from "../assets/Teachassistapp.png";
-//import MarkhamTrails from "../assets/MarkhamTrails.png";
+// import MarkhamTrails from "../assets/MarkhamTrails.png";
 
 export const projects_data = [
   {
