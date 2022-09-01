@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a808f280.css",
-    "main.js": "/static/js/main.38e70e99.js",
+    "main.css": "/static/css/main.48c98c8c.css",
+    "main.js": "/static/js/main.108cf210.js",
     "static/js/787.571271d3.chunk.js": "/static/js/787.571271d3.chunk.js",
     "static/media/Teachassistapp.png": "/static/media/Teachassistapp.b95ac893a1e1a8e76db0.png",
+    "static/media/Jacqueline.png": "/static/media/Jacqueline.1e869e4b1abb9b175119.png",
+    "static/media/Dorian.png": "/static/media/Dorian.07e7c01b22e5961f80e4.png",
+    "static/media/Jonathan.png": "/static/media/Jonathan.da7b5a6843326cefd428.png",
     "static/media/Boink.png": "/static/media/Boink.6b0b24bd367af91e83eb.png",
     "static/media/Wolfpackapp.png": "/static/media/Wolfpackapp.c6ed6762de90195876f2.png",
     "static/media/Logo.png": "/static/media/Logo.3f18b39a630492005155.png",
     "index.html": "/index.html",
-    "main.a808f280.css.map": "/static/css/main.a808f280.css.map",
-    "main.38e70e99.js.map": "/static/js/main.38e70e99.js.map",
+    "main.48c98c8c.css.map": "/static/css/main.48c98c8c.css.map",
+    "main.108cf210.js.map": "/static/js/main.108cf210.js.map",
     "787.571271d3.chunk.js.map": "/static/js/787.571271d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a808f280.css",
-    "static/js/main.38e70e99.js"
+    "static/css/main.48c98c8c.css",
+    "static/js/main.108cf210.js"
   ]
 }
