@@ -21,7 +21,7 @@ export const team_data = [
     name: "Jonathan",
     position: "Co founder & Vice President",
     year: "2020-2022",
-    role: "Lead projects for wolfpackapp",
+    role: "Lead projects for bo!nk, Markham Trails",
     image: Jonathan,
   },
 ];
