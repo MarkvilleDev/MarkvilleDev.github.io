@@ -1,6 +1,7 @@
 import Wolfpackapp from "../assets/Wolfpackapp.png";
 import Boink from "../assets/Boink.png";
 import Teachassistapp from "../assets/Teachassistapp.png";
+import WordlePlus from "../assets/WordlePlus.png";
 // import MarkhamTrails from "../assets/MarkhamTrails.png";
 
 export const projects_data = [
@@ -55,6 +56,23 @@ export const projects_data = [
     image: {
       src: Teachassistapp,
       alt: "TeachAssist App Image",
+    },
+  },
+  {
+    name: "Wordle Plus",
+    subtitle: "Same game, different look!",
+    description:
+      'Wordle premium is Markville App Development\'s take on the popular game "Wordle".',
+    date: "2022",
+    github: "https://github.com/MarkvilleAppDev/wordle_premium",
+    website: "https://wordlepremium.web.app/#/",
+    colors: {
+      primary: "#e91e63",
+      text: "#ffffff",
+    },
+    image: {
+      src: WordlePlus,
+      alt: "WordlePlus Image",
     },
   },
 ];
