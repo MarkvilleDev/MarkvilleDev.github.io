@@ -62,7 +62,7 @@ export const projects_data = [
     name: "Wordle Plus",
     subtitle: "Same game, different look!",
     description:
-      'Wordle premium is Markville App Development\'s take on the popular game "Wordle".',
+      'Wordle premium is Markville App Development\'s take on the popular game "Wordle". Guess 5-letter words until you get the secret word!',
     date: "2022",
     github: "https://github.com/MarkvilleAppDev/wordle_premium",
     website: "https://wordlepremium.web.app/#/",
