@@ -2,7 +2,7 @@ import Wolfpackapp from "../assets/Wolfpackapp.png";
 import Boink from "../assets/Boink.png";
 import Teachassistapp from "../assets/Teachassistapp.png";
 import WordlePlus from "../assets/WordlePlus.png";
-// import MarkhamTrails from "../assets/MarkhamTrails.png";
+import MarkhamTrails from "../assets/MarkhamTrails.png";
 
 export const projects_data = [
   {
@@ -75,15 +75,13 @@ export const projects_data = [
       alt: "WordlePlus Image",
     },
   },
-];
-
-/*
-{
+  {
     name: "Markham Trails",
-    subtitle: "Lorem ipsum dolor sit amet.",
-    description: "Lorem ipsum dolor sit amet.",
+    subtitle: "Explore nature with a story!",
+    description:
+      "Explore nearby trails with an audio experience. Enjoy Markham’s beautiful Rogue Trail system and historic main streets as Markham Public Library staff guide you through the local and natural history of the community.",
     date: "2022",
-    apple: "",
+    apple: "https://apps.apple.com/ca/app/markham-trails/id1640993603",
     google: "",
     colors: {
       primary: "#61aa5a",
@@ -93,4 +91,5 @@ export const projects_data = [
       src: MarkhamTrails,
       alt: "Markham Trails App Image",
     },
-  },*/
+  },
+];
