@@ -2,26 +2,33 @@ import Dorian from "../assets/Dorian.png";
 import Jacqueline from "../assets/Jacqueline.png";
 import Jonathan from "../assets/Jonathan.png";
 
-export const team_data = [
-  {
-    name: "Dorian",
-    position: "Founder & President",
-    year: "2020-2022",
-    role: "Lead projects for bo!nk, Markham Trails, wolfpackapp",
-    image: Dorian,
+export const team_data = {
+  2023: {
+    leads: ["Ryan Zhu", "Ishaan Dey"],
+    senior: ["Emily", "Adam", "Fahad"],
+    junior: ["Hamse", "Matthew", "Andy", "Jenny", "Eddie"],
   },
-  {
-    name: "Jacqueline",
-    position: "Co founder & Vice President",
-    year: "2020-2022",
-    role: "Lead projects for bo!nk, Markham Trails",
-    image: Jacqueline,
-  },
-  {
-    name: "Jonathan",
-    position: "Co founder & Vice President",
-    year: "2020-2022",
-    role: "Lead projects for bo!nk, Markham Trails, Wordle Plus",
-    image: Jonathan,
-  },
-];
+  2022: [
+    {
+      name: "Dorian",
+      position: "Founder & President",
+      year: "2020-2022",
+      role: "Lead projects for bo!nk, Markham Trails, wolfpackapp",
+      image: Dorian,
+    },
+    {
+      name: "Jacqueline",
+      position: "Co founder & Vice President",
+      year: "2020-2022",
+      role: "Lead projects for bo!nk, Markham Trails",
+      image: Jacqueline,
+    },
+    {
+      name: "Jonathan",
+      position: "Co founder & Vice President",
+      year: "2020-2022",
+      role: "Lead projects for bo!nk, Markham Trails, Wordle Plus",
+      image: Jonathan,
+    },
+  ],
+};

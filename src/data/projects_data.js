@@ -84,7 +84,7 @@ export const projects_data = [
     apple: "https://apps.apple.com/ca/app/markham-trails/id1640993603",
     google: "",
     colors: {
-      primary: "#61aa5a",
+      primary: "#3d9b35",
       text: "#ffffff",
     },
     image: {
