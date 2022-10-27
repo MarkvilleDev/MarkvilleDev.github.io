@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b46ae39.css",
-    "main.js": "/static/js/main.54377dc1.js",
+    "main.css": "/static/css/main.8feb3b05.css",
+    "main.js": "/static/js/main.055056a4.js",
     "static/js/787.571271d3.chunk.js": "/static/js/787.571271d3.chunk.js",
     "static/media/Teachassistapp.png": "/static/media/Teachassistapp.b95ac893a1e1a8e76db0.png",
     "static/media/Jacqueline.png": "/static/media/Jacqueline.1e869e4b1abb9b175119.png",
@@ -12,12 +12,12 @@
     "static/media/Logo.png": "/static/media/Logo.3f18b39a630492005155.png",
     "static/media/MarkhamTrails.png": "/static/media/MarkhamTrails.470b01f94464773d8808.png",
     "index.html": "/index.html",
-    "main.0b46ae39.css.map": "/static/css/main.0b46ae39.css.map",
-    "main.54377dc1.js.map": "/static/js/main.54377dc1.js.map",
+    "main.8feb3b05.css.map": "/static/css/main.8feb3b05.css.map",
+    "main.055056a4.js.map": "/static/js/main.055056a4.js.map",
     "787.571271d3.chunk.js.map": "/static/js/787.571271d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b46ae39.css",
-    "static/js/main.54377dc1.js"
+    "static/css/main.8feb3b05.css",
+    "static/js/main.055056a4.js"
   ]
 }
